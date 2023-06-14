@@ -5,7 +5,7 @@ pipeline {
           stages{
               stage{'Git Checkout'}{
                    
-                   steps{
+                   steps{   git 'https://github.com/abbbinash/mahalogin.git'
                }
          }
      }
